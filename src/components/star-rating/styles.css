@@ -1,0 +1,35 @@
+.star-rating-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  background-color: #e3f2fd;
+}
+
+.star-rating {
+  text-align: center;
+  margin: 10px;
+}
+
+.movie-img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border: 3px solid #5aa9e6;
+}
+
+.star-rating h3 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.active {
+  color: gold;
+}
+
+.inactive {
+  color: grey;
+}
